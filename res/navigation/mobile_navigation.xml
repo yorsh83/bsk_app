@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/servicesFragment">
+
+    <fragment
+        android:id="@+id/servicesFragment"
+        android:name="mx.yorsh.barbershopkain.fragments.ServicesFragment"
+        android:label="@string/str_service"
+        tools:layout="@layout/fragment_services" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="mx.yorsh.barbershopkain.fragments.SignInFragment"
+        android:label="@string/str_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="mx.yorsh.barbershopkain.fragments.SignUpFragment"
+        android:label="@string/str_sign_up" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="mx.yorsh.barbershopkain.fragments.InfoFragment"
+        android:label="@string/str_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/appointmentFragment"
+        android:name="mx.yorsh.barbershopkain.fragments.AppointmentFragment"
+        android:label="@string/str_appointment"
+        tools:layout="@layout/fragment_appointment" />
+    <fragment
+        android:id="@+id/controlFragment"
+        android:name="mx.yorsh.barbershopkain.fragments.ControlFragment"
+        android:label="@string/str_admin"
+        tools:layout="@layout/fragment_control" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="mx.yorsh.barbershopkain.fragments.SettingsFragment"
+        android:label="@string/str_perfil"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

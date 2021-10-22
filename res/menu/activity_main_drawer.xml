@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/gpo1">
+        <item
+            android:id="@+id/servicesFragment"
+            android:icon="@drawable/ic_menu_book"
+            android:title="@string/str_service" />
+        <item
+            android:id="@+id/appointmentFragment"
+            android:icon="@drawable/ic_event_available"
+            android:title="@string/str_appointment" />
+        <item
+            android:id="@+id/infoFragment"
+            android:icon="@drawable/ic_info"
+            android:title="@string/str_info" />
+        <item
+            android:id="@+id/controlFragment"
+            android:icon="@drawable/ic_control"
+            android:title="@string/str_admin" />
+    </group>
+    <group android:id="@+id/gpo2">
+        <item
+            android:id="@+id/signUpFragment"
+            android:icon="@drawable/ic_person_add"
+            android:title="@string/str_sign_up" />
+        <item
+            android:id="@+id/signInFragment"
+            android:icon="@drawable/ic_person"
+            android:title="@string/str_sign_in" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/ic_control"
+            android:title="@string/str_perfil" />
+    </group>
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Barber Shop Kain</string>
+    <string name="str_username">User</string>
+    <string name="str_password">Password</string>
+    <string name="str_sign_in">Sign In</string>
+    <string name="str_sign_up">Sign Up</string>
+    <string name="str_name">Name</string>
+    <string name="str_email">Email</string>
+    <string name="str_pass_rep">Repeat Password</string>
+    <string name="error_username">The field user is required</string>
+    <string name="error_password">The field password is required</string>
+    <string name="str_male">Male</string>
+    <string name="str_femenino">Female</string>
+    <string name="error_name">The field name is required</string>
+    <string name="str_appointment">Appointment</string>
+    <string name="str_service">Services</string>
+    <string name="str_info">Information</string>
+</resources>
